@@ -176,6 +176,7 @@ a:hover, a:active {
 	position: relative;
 	float: left;
 	color: white;
+	background-color: black;
 }
 
 .head {
@@ -207,6 +208,9 @@ a:hover, a:active {
 
 #front {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('bg2.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 233px; /* fallback */
 	padding-top: 30vh;
@@ -214,6 +218,9 @@ a:hover, a:active {
 
 #video {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('thumbnail2.png') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 233px; /* fallback */
 	padding-top: 30vh;
@@ -309,6 +316,9 @@ a:hover, a:active {
 
 #team {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('team2.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	background-size: cover;
 	min-height: 560px; /* fallback */
 	min-height: 80vh;
