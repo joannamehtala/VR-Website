@@ -208,16 +208,21 @@ a:hover, a:active {
 
 #front {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('bg2.jpg') no-repeat center center;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg2.jpg', sizingMethod='scale')";
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 233px; /* fallback */
 	padding-top: 30vh;
+	background-color: #35393a;
 }
 
 #video {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('thumbnail2.png') no-repeat center center;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='thumbnail2.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='thumbnail2.png', sizingMethod='scale')";
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -316,6 +321,8 @@ a:hover, a:active {
 
 #team {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('team2.jpg') no-repeat center center;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team2.jpg', sizingMethod='scale')";
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
