@@ -57,6 +57,7 @@ body {
 }
 
 h1 {
+	font-size: 52px; /* fallback */
 	font-size: 8vh;
 	font-family: 'colaborate-regular';
 	text-transform: uppercase;
@@ -67,6 +68,7 @@ hr {
 }
 
 h2 {
+	font-size: 42px; /* fallback */
 	font-size: 6vh;
 	font-family: 'colaborate-regular';
 	text-transform: uppercase;
@@ -167,6 +169,7 @@ a:hover, a:active {
 .full-page {
 	margin: 0;
 	width: 100%;
+	min-height: 700px; /* fallback */
 	min-height: 100vh;
 	text-align: center;
 	display: inline-block;
@@ -187,10 +190,12 @@ a:hover, a:active {
 	margin: 0 auto;
 	position: absolute;
 	left: 0;
+	bottom: 35px; /* fallback */
 	bottom: 5vh;
 }
 
 .arrow {
+	font-size: 47px; /* fallback */
 	font-size: 7vh;
 	color: #E6E6E6;
 	transition: all 0.2s ease-in-out;
@@ -203,12 +208,14 @@ a:hover, a:active {
 #front {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('bg2.jpg') no-repeat center center;
 	background-size: cover;
+	padding-top: 233px; /* fallback */
 	padding-top: 30vh;
 }
 
 #video {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('thumbnail2.png') no-repeat center center;
 	background-size: cover;
+	padding-top: 233px; /* fallback */
 	padding-top: 30vh;
 	text-align: center;
 }
@@ -233,12 +240,14 @@ a:hover, a:active {
 }
 
 #watch {
+	margin-top: 15px; /* fallback */
 	margin-top: 2vh;
 }
 
 .modal {
 	position: fixed;
 	width: 100%;
+	height: 700px; /* fallback */
 	height: 100vh;
 	justify-content: center;
 	top: 0;
@@ -301,8 +310,10 @@ a:hover, a:active {
 #team {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('team2.jpg') no-repeat center center;
 	background-size: cover;
+	min-height: 560px; /* fallback */
 	min-height: 80vh;
 	background-color: #35393a;
+	padding-top: 140px; /* fallback */
 	padding-top: 20vh;
 	width: 100%;
 	display: inline-block;
@@ -317,9 +328,12 @@ h4 {
 }
 
 #contact {
+	min-height: 190px; /* fallback */
 	min-height: 20vh;
 	text-align: left;
+	padding-top: 28px; /* fallback */
 	padding-top: 4vh;
+	padding-bottom: 28px; /* fallback */
 	padding-bottom: 4vh;
 	background-color: black;
 	padding-right: 10%;
