@@ -59,7 +59,7 @@ body {
 h1 {
 	font-size: 52px; /* fallback */
 	font-size: 8vh;
-	font-family: 'colaborate-regular';
+	font-family: 'colaborate-regular', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -157,6 +157,7 @@ a:hover, a:active {
     color: #E6E6E6;
 }
 @media (max-width: 767px) {
+
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #777;
     }
@@ -207,7 +208,7 @@ a:hover, a:active {
 }
 
 #front {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('bg2.jpg') no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('front.jpg') no-repeat center center;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg2.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='bg2.jpg', sizingMethod='scale')";
 	-webkit-background-size: cover;
@@ -220,7 +221,7 @@ a:hover, a:active {
 }
 
 #video {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('thumbnail2.png') no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('video.jpg') no-repeat center center;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='thumbnail2.png', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='thumbnail2.png', sizingMethod='scale')";
 	-webkit-background-size: cover;
