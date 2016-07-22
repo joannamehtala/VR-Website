@@ -186,6 +186,12 @@ a:hover, a:active {
 	text-align: center;
 }
 
+@media (max-width: 767px) {
+	.head {
+		width: 80%;
+	}
+}
+
 .arrow-container {
 	width: 100%;
 	text-align: center;
@@ -321,7 +327,7 @@ a:hover, a:active {
 }
 
 #team {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('team2.jpg') no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('team.jpg') no-repeat center 30%;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team2.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team2.jpg', sizingMethod='scale')";
 	-webkit-background-size: cover;
