@@ -74,6 +74,12 @@ h2 {
 	text-transform: uppercase;
 }
 
+h3 {
+	font-size: 24px; /* fallback */
+	font-size: 3.5vh;
+	font-family: 'colaborate-thin';
+}
+
 a {
 	color: #E6E6E6;
 	transition: all 0.2s ease-in-out;
@@ -188,7 +194,7 @@ a:hover, a:active {
 
 @media (max-width: 767px) {
 	.head {
-		width: 80%;
+		width: 90%;
 	}
 }
 
