@@ -357,6 +357,13 @@ h4 {
 	font-size: 1em;
 }
 
+h5 {
+	text-transform: uppercase;
+	font-family: 'colaborate-medium';
+	font-size: 0.8em;
+	margin-top: 15px;
+}
+
 #contact {
 	min-height: 190px; /* fallback */
 	min-height: 20vh;
@@ -375,5 +382,3 @@ h4 {
 	font-family: 'colaborate-regular';
 	font-size: 1em;
 }
-
-
