@@ -333,9 +333,9 @@ a:hover, a:active {
 }
 
 #team {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('team.jpg') no-repeat center 30%;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team2.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team2.jpg', sizingMethod='scale')";
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2)), url('team.png') no-repeat center 24%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='team.png', sizingMethod='scale')";
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
